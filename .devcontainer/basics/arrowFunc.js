@@ -11,7 +11,7 @@ const students ={
 
 students.printName(); // Output: Name: John, Age: 30, City: New York
 
-// arrow function syntax :: const functionName = () => {}
+// arrow function syntax :: () => {}
 
 // const add = (a,b) => {
 //     return a + b;
