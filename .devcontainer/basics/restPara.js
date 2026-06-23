@@ -9,3 +9,15 @@ function sum2(a, b, ...numbers) {
     return numbers
 }
 console.log(sum2(1, 2, 3, 4, 5)); // Output: [3, 4, 5] bcz the first two parameters a and b are assigned the values 1 and 2, respectively, and the rest of the arguments (3, 4, 5) are collected into the numbers array.
+
+const user = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+
+function handleObject(anyObject) {
+    console.log(`Name: ${anyObject.name}, Age: ${anyObject.age}, City: ${anyObject.city}`);
+}
+
+handleObject(user); // Output: Name: John, Age: 30, City: New York
